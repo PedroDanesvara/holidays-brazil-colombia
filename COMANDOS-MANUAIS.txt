@@ -1,0 +1,67 @@
+===========================================
+ COMANDOS PARA MOVER PROJETO PARA A RAIZ
+===========================================
+
+Execute estes comandos um por um no PowerShell
+(copie e cole linha por linha)
+
+-------------------------------------------
+PASSO 1: Criar backup do projeto antigo
+-------------------------------------------
+
+New-Item -ItemType Directory -Path "old-version" -Force
+
+Move-Item -Path "index.html" -Destination "old-version/" -Force
+
+Move-Item -Path "script.js" -Destination "old-version/" -Force
+
+Move-Item -Path "styles.css" -Destination "old-version/" -Force
+
+Move-Item -Path "README.md" -Destination "old-version/README-OLD.md" -Force
+
+
+-------------------------------------------
+PASSO 2: Mover conteudo para a raiz
+-------------------------------------------
+
+Get-ChildItem -Path "holidays-app" -Force | ForEach-Object { Move-Item -Path $_.FullName -Destination "." -Force }
+
+
+-------------------------------------------
+PASSO 3: Remover pasta vazia
+-------------------------------------------
+
+Remove-Item -Path "holidays-app" -Force
+
+
+-------------------------------------------
+PASSO 4: Verificar estrutura
+-------------------------------------------
+
+Get-ChildItem -Name
+
+
+-------------------------------------------
+PASSO 5: Testar build
+-------------------------------------------
+
+npm run build
+
+
+-------------------------------------------
+PASSO 6: Git commit e push
+-------------------------------------------
+
+git status
+
+git add .
+
+git commit -m "Move Vite project to root directory"
+
+git push origin main
+
+
+===========================================
+PRONTO! Agora pode fazer deploy na Vercel!
+===========================================
+

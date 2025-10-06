@@ -1,123 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Public Holidays 2025 - Brazil & Colombia</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Public Holidays <span id="current-year">2025</span></h1>
-            <h3>Team CALA</h3>
-            <p>Brazil & Colombia</p>
-        </header>
-
-        <div class="filters">
-            <div class="filter-group country-group">
-                <label class="filter-label">Countries:</label>
-                <div class="checkbox-container">
-                    <label class="checkbox-label">
-                        <input type="checkbox" id="brazil-checkbox" checked>
-                        <span class="checkmark"></span>
-                        Brazil
-                    </label>
-                    <label class="checkbox-label">
-                        <input type="checkbox" id="colombia-checkbox" checked>
-                        <span class="checkmark"></span>
-                        Colombia
-                    </label>
-                </div>
-            </div>
-
-            <div class="filter-group">
-                <label for="year-select" class="filter-label">Year:</label>
-                <select id="year-select">
-                    <option value="2025">2025</option>
-                    <option value="2026">2026</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label for="month-select" class="filter-label">Month:</label>
-                <select id="month-select">
-                    <option value="all">All Months</option>
-                    <option value="1">January</option>
-                    <option value="2">February</option>
-                    <option value="3">March</option>
-                    <option value="4">April</option>
-                    <option value="5">May</option>
-                    <option value="6">June</option>
-                    <option value="7">July</option>
-                    <option value="8">August</option>
-                    <option value="9">September</option>
-                    <option value="10">October</option>
-                    <option value="11">November</option>
-                    <option value="12">December</option>
-                </select>
-            </div>
-
-            <div class="filter-group">
-                <label for="week-select" class="filter-label">Week:</label>
-                <select id="week-select">
-                    <option value="all">All Weeks</option>
-                </select>
-            </div>
-
-            <div class="filter-group view-toggle-group">
-                <label class="filter-label">View:</label>
-                <div class="view-toggle">
-                    <button id="list-view-btn" class="view-btn active">List</button>
-                    <button id="calendar-view-btn" class="view-btn">Calendar</button>
-                </div>
-            </div>
-
-            <button id="clear-filters" class="clear-btn">Clear Filters</button>
-        </div>
-
-        <div class="stats">
-            <div class="stat-item">
-                <span class="stat-number" id="total-holidays">0</span>
-                <span class="stat-label">Total Holidays</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-number" id="filtered-holidays">0</span>
-                <span class="stat-label">Filtered Results</span>
-            </div>
-        </div>
-
-        <!-- List View -->
-        <div id="list-view" class="holidays-container">
-            <div id="holidays-list" class="holidays-list">
-                <!-- Holidays will be populated here -->
-            </div>
-        </div>
-
-        <!-- Calendar View -->
-        <div id="calendar-view" class="calendar-container" style="display: none;">
-            <div class="calendar-header">
-                <button id="prev-month" class="calendar-nav-btn">‹</button>
-                <h2 id="calendar-month-year">January <span id="calendar-year">2025</span></h2>
-                <button id="next-month" class="calendar-nav-btn">›</button>
-            </div>
-            <div class="calendar-grid">
-                <div class="calendar-weekdays">
-                    <div class="weekday">Sun</div>
-                    <div class="weekday">Mon</div>
-                    <div class="weekday">Tue</div>
-                    <div class="weekday">Wed</div>
-                    <div class="weekday">Thu</div>
-                    <div class="weekday">Fri</div>
-                    <div class="weekday">Sat</div>
-                </div>
-                <div id="calendar-days" class="calendar-days">
-                    <!-- Calendar days will be populated here -->
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>holidays-app</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
