@@ -11,6 +11,22 @@ export function DateFilter() {
   const { setYearFilter, setMonthFilter, setWeekFilter } = useFilterActions()
   const { yearOptions, monthOptions, weekOptions } = useFilterOptions()
 
+  const handleMonthChange = (value: string | number) => {
+    if (value === 'all') {
+      setMonthFilter('all')
+    } else {
+      setMonthFilter(Number(value))
+    }
+  }
+
+  const handleWeekChange = (value: string | number) => {
+    if (value === 'all') {
+      setWeekFilter('all')
+    } else {
+      setWeekFilter(Number(value))
+    }
+  }
+
   return (
     <div className="flex flex-col md:flex-row gap-4">
       {/* Year */}
@@ -25,7 +41,7 @@ export function DateFilter() {
       <Select
         label="Month"
         value={month}
-        onChange={setMonthFilter}
+        onChange={handleMonthChange}
         options={monthOptions}
       />
 
@@ -33,7 +49,7 @@ export function DateFilter() {
       <Select
         label="Week"
         value={week}
-        onChange={setWeekFilter}
+        onChange={handleWeekChange}
         options={weekOptions}
         disabled={month === 'all'}
       />
