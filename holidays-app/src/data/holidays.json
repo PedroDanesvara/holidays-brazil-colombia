@@ -1,0 +1,603 @@
+[
+  {
+    "id": "br-2025-new-year",
+    "country": "brazil",
+    "name": "New Year's Day",
+    "date": "2025-01-01",
+    "month": 1,
+    "day": 1,
+    "year": 2025,
+    "week": 1
+  },
+  {
+    "id": "br-2025-carnival-1",
+    "country": "brazil",
+    "name": "Carnival",
+    "date": "2025-03-03",
+    "month": 3,
+    "day": 3,
+    "year": 2025,
+    "week": 10
+  },
+  {
+    "id": "br-2025-carnival-2",
+    "country": "brazil",
+    "name": "Carnival",
+    "date": "2025-03-04",
+    "month": 3,
+    "day": 4,
+    "year": 2025,
+    "week": 10
+  },
+  {
+    "id": "br-2025-good-friday",
+    "country": "brazil",
+    "name": "Good Friday",
+    "date": "2025-04-18",
+    "month": 4,
+    "day": 18,
+    "year": 2025,
+    "week": 16
+  },
+  {
+    "id": "br-2025-tiradentes",
+    "country": "brazil",
+    "name": "Tiradentes Day",
+    "date": "2025-04-21",
+    "month": 4,
+    "day": 21,
+    "year": 2025,
+    "week": 17
+  },
+  {
+    "id": "br-2025-labour",
+    "country": "brazil",
+    "name": "Labour Day",
+    "date": "2025-05-01",
+    "month": 5,
+    "day": 1,
+    "year": 2025,
+    "week": 18
+  },
+  {
+    "id": "br-2025-corpus-christi",
+    "country": "brazil",
+    "name": "Corpus Christi",
+    "date": "2025-06-19",
+    "month": 6,
+    "day": 19,
+    "year": 2025,
+    "week": 25
+  },
+  {
+    "id": "br-2025-independence",
+    "country": "brazil",
+    "name": "Independence Day",
+    "date": "2025-09-07",
+    "month": 9,
+    "day": 7,
+    "year": 2025,
+    "week": 36
+  },
+  {
+    "id": "br-2025-aparecida",
+    "country": "brazil",
+    "name": "Lady of Aparecida",
+    "date": "2025-10-12",
+    "month": 10,
+    "day": 12,
+    "year": 2025,
+    "week": 41
+  },
+  {
+    "id": "br-2025-all-souls",
+    "country": "brazil",
+    "name": "All Souls' Day",
+    "date": "2025-11-02",
+    "month": 11,
+    "day": 2,
+    "year": 2025,
+    "week": 44
+  },
+  {
+    "id": "br-2025-republic",
+    "country": "brazil",
+    "name": "Republic Day",
+    "date": "2025-11-15",
+    "month": 11,
+    "day": 15,
+    "year": 2025,
+    "week": 46
+  },
+  {
+    "id": "br-2025-black-awareness",
+    "country": "brazil",
+    "name": "Black Awareness Day",
+    "date": "2025-11-20",
+    "month": 11,
+    "day": 20,
+    "year": 2025,
+    "week": 47
+  },
+  {
+    "id": "br-2025-christmas",
+    "country": "brazil",
+    "name": "Christmas Day",
+    "date": "2025-12-25",
+    "month": 12,
+    "day": 25,
+    "year": 2025,
+    "week": 52
+  },
+  {
+    "id": "co-2025-new-year",
+    "country": "colombia",
+    "name": "New Year's Day",
+    "date": "2025-01-01",
+    "month": 1,
+    "day": 1,
+    "year": 2025,
+    "week": 1
+  },
+  {
+    "id": "co-2025-epiphany",
+    "country": "colombia",
+    "name": "Epiphany Holiday",
+    "date": "2025-01-06",
+    "month": 1,
+    "day": 6,
+    "year": 2025,
+    "week": 2
+  },
+  {
+    "id": "co-2025-st-joseph",
+    "country": "colombia",
+    "name": "St Joseph's Day",
+    "date": "2025-03-24",
+    "month": 3,
+    "day": 24,
+    "year": 2025,
+    "week": 13
+  },
+  {
+    "id": "co-2025-maundy-thursday",
+    "country": "colombia",
+    "name": "Maundy Thursday",
+    "date": "2025-04-17",
+    "month": 4,
+    "day": 17,
+    "year": 2025,
+    "week": 16
+  },
+  {
+    "id": "co-2025-good-friday",
+    "country": "colombia",
+    "name": "Good Friday",
+    "date": "2025-04-18",
+    "month": 4,
+    "day": 18,
+    "year": 2025,
+    "week": 16
+  },
+  {
+    "id": "co-2025-labour",
+    "country": "colombia",
+    "name": "Labour Day",
+    "date": "2025-05-01",
+    "month": 5,
+    "day": 1,
+    "year": 2025,
+    "week": 18
+  },
+  {
+    "id": "co-2025-ascension",
+    "country": "colombia",
+    "name": "Ascension Day Holiday",
+    "date": "2025-06-02",
+    "month": 6,
+    "day": 2,
+    "year": 2025,
+    "week": 23
+  },
+  {
+    "id": "co-2025-corpus-christi",
+    "country": "colombia",
+    "name": "Corpus Christi Holiday",
+    "date": "2025-06-23",
+    "month": 6,
+    "day": 23,
+    "year": 2025,
+    "week": 26
+  },
+  {
+    "id": "co-2025-peter-paul",
+    "country": "colombia",
+    "name": "Feast of St Peter and St Paul",
+    "date": "2025-06-30",
+    "month": 6,
+    "day": 30,
+    "year": 2025,
+    "week": 27
+  },
+  {
+    "id": "co-2025-independence",
+    "country": "colombia",
+    "name": "Independence Day",
+    "date": "2025-07-20",
+    "month": 7,
+    "day": 20,
+    "year": 2025,
+    "week": 29
+  },
+  {
+    "id": "co-2025-boyaca",
+    "country": "colombia",
+    "name": "Battle of Boyacá",
+    "date": "2025-08-07",
+    "month": 8,
+    "day": 7,
+    "year": 2025,
+    "week": 32
+  },
+  {
+    "id": "co-2025-assumption",
+    "country": "colombia",
+    "name": "Assumption of Mary Holiday",
+    "date": "2025-08-18",
+    "month": 8,
+    "day": 18,
+    "year": 2025,
+    "week": 34
+  },
+  {
+    "id": "co-2025-columbus",
+    "country": "colombia",
+    "name": "Columbus Day Holiday",
+    "date": "2025-10-13",
+    "month": 10,
+    "day": 13,
+    "year": 2025,
+    "week": 42
+  },
+  {
+    "id": "co-2025-all-saints",
+    "country": "colombia",
+    "name": "All Saints' Day Holiday",
+    "date": "2025-11-03",
+    "month": 11,
+    "day": 3,
+    "year": 2025,
+    "week": 45
+  },
+  {
+    "id": "co-2025-cartagena",
+    "country": "colombia",
+    "name": "Independence of Cartagena",
+    "date": "2025-11-17",
+    "month": 11,
+    "day": 17,
+    "year": 2025,
+    "week": 47
+  },
+  {
+    "id": "co-2025-immaculate",
+    "country": "colombia",
+    "name": "Immaculate Conception",
+    "date": "2025-12-08",
+    "month": 12,
+    "day": 8,
+    "year": 2025,
+    "week": 50
+  },
+  {
+    "id": "co-2025-christmas",
+    "country": "colombia",
+    "name": "Christmas Day",
+    "date": "2025-12-25",
+    "month": 12,
+    "day": 25,
+    "year": 2025,
+    "week": 52
+  },
+  {
+    "id": "br-2026-new-year",
+    "country": "brazil",
+    "name": "New Year's Day",
+    "date": "2026-01-01",
+    "month": 1,
+    "day": 1,
+    "year": 2026,
+    "week": 1
+  },
+  {
+    "id": "br-2026-carnival-1",
+    "country": "brazil",
+    "name": "Carnival",
+    "date": "2026-02-16",
+    "month": 2,
+    "day": 16,
+    "year": 2026,
+    "week": 8
+  },
+  {
+    "id": "br-2026-carnival-2",
+    "country": "brazil",
+    "name": "Carnival",
+    "date": "2026-02-17",
+    "month": 2,
+    "day": 17,
+    "year": 2026,
+    "week": 8
+  },
+  {
+    "id": "br-2026-good-friday",
+    "country": "brazil",
+    "name": "Good Friday",
+    "date": "2026-04-03",
+    "month": 4,
+    "day": 3,
+    "year": 2026,
+    "week": 14
+  },
+  {
+    "id": "br-2026-tiradentes",
+    "country": "brazil",
+    "name": "Tiradentes Day",
+    "date": "2026-04-21",
+    "month": 4,
+    "day": 21,
+    "year": 2026,
+    "week": 17
+  },
+  {
+    "id": "br-2026-labour",
+    "country": "brazil",
+    "name": "Labour Day",
+    "date": "2026-05-01",
+    "month": 5,
+    "day": 1,
+    "year": 2026,
+    "week": 18
+  },
+  {
+    "id": "br-2026-corpus-christi",
+    "country": "brazil",
+    "name": "Corpus Christi",
+    "date": "2026-06-04",
+    "month": 6,
+    "day": 4,
+    "year": 2026,
+    "week": 23
+  },
+  {
+    "id": "br-2026-independence",
+    "country": "brazil",
+    "name": "Independence Day",
+    "date": "2026-09-07",
+    "month": 9,
+    "day": 7,
+    "year": 2026,
+    "week": 37
+  },
+  {
+    "id": "br-2026-aparecida",
+    "country": "brazil",
+    "name": "Lady of Aparecida",
+    "date": "2026-10-12",
+    "month": 10,
+    "day": 12,
+    "year": 2026,
+    "week": 42
+  },
+  {
+    "id": "br-2026-all-souls",
+    "country": "brazil",
+    "name": "All Souls' Day",
+    "date": "2026-11-02",
+    "month": 11,
+    "day": 2,
+    "year": 2026,
+    "week": 45
+  },
+  {
+    "id": "br-2026-republic",
+    "country": "brazil",
+    "name": "Republic Day",
+    "date": "2026-11-15",
+    "month": 11,
+    "day": 15,
+    "year": 2026,
+    "week": 47
+  },
+  {
+    "id": "br-2026-black-awareness",
+    "country": "brazil",
+    "name": "Black Awareness Day",
+    "date": "2026-11-20",
+    "month": 11,
+    "day": 20,
+    "year": 2026,
+    "week": 47
+  },
+  {
+    "id": "br-2026-christmas",
+    "country": "brazil",
+    "name": "Christmas Day",
+    "date": "2026-12-25",
+    "month": 12,
+    "day": 25,
+    "year": 2026,
+    "week": 52
+  },
+  {
+    "id": "co-2026-new-year",
+    "country": "colombia",
+    "name": "New Year's Day",
+    "date": "2026-01-01",
+    "month": 1,
+    "day": 1,
+    "year": 2026,
+    "week": 1
+  },
+  {
+    "id": "co-2026-epiphany",
+    "country": "colombia",
+    "name": "Epiphany Holiday",
+    "date": "2026-01-06",
+    "month": 1,
+    "day": 6,
+    "year": 2026,
+    "week": 2
+  },
+  {
+    "id": "co-2026-st-joseph",
+    "country": "colombia",
+    "name": "St Joseph's Day",
+    "date": "2026-03-23",
+    "month": 3,
+    "day": 23,
+    "year": 2026,
+    "week": 13
+  },
+  {
+    "id": "co-2026-maundy-thursday",
+    "country": "colombia",
+    "name": "Maundy Thursday",
+    "date": "2026-04-02",
+    "month": 4,
+    "day": 2,
+    "year": 2026,
+    "week": 14
+  },
+  {
+    "id": "co-2026-good-friday",
+    "country": "colombia",
+    "name": "Good Friday",
+    "date": "2026-04-03",
+    "month": 4,
+    "day": 3,
+    "year": 2026,
+    "week": 14
+  },
+  {
+    "id": "co-2026-labour",
+    "country": "colombia",
+    "name": "Labour Day",
+    "date": "2026-05-01",
+    "month": 5,
+    "day": 1,
+    "year": 2026,
+    "week": 18
+  },
+  {
+    "id": "co-2026-ascension",
+    "country": "colombia",
+    "name": "Ascension Day Holiday",
+    "date": "2026-05-18",
+    "month": 5,
+    "day": 18,
+    "year": 2026,
+    "week": 21
+  },
+  {
+    "id": "co-2026-corpus-christi",
+    "country": "colombia",
+    "name": "Corpus Christi Holiday",
+    "date": "2026-06-08",
+    "month": 6,
+    "day": 8,
+    "year": 2026,
+    "week": 24
+  },
+  {
+    "id": "co-2026-peter-paul",
+    "country": "colombia",
+    "name": "Feast of St Peter and St Paul",
+    "date": "2026-06-29",
+    "month": 6,
+    "day": 29,
+    "year": 2026,
+    "week": 27
+  },
+  {
+    "id": "co-2026-independence",
+    "country": "colombia",
+    "name": "Independence Day",
+    "date": "2026-07-20",
+    "month": 7,
+    "day": 20,
+    "year": 2026,
+    "week": 30
+  },
+  {
+    "id": "co-2026-boyaca",
+    "country": "colombia",
+    "name": "Battle of Boyacá",
+    "date": "2026-08-07",
+    "month": 8,
+    "day": 7,
+    "year": 2026,
+    "week": 32
+  },
+  {
+    "id": "co-2026-assumption",
+    "country": "colombia",
+    "name": "Assumption of Mary Holiday",
+    "date": "2026-08-17",
+    "month": 8,
+    "day": 17,
+    "year": 2026,
+    "week": 34
+  },
+  {
+    "id": "co-2026-columbus",
+    "country": "colombia",
+    "name": "Columbus Day Holiday",
+    "date": "2026-10-12",
+    "month": 10,
+    "day": 12,
+    "year": 2026,
+    "week": 42
+  },
+  {
+    "id": "co-2026-all-saints",
+    "country": "colombia",
+    "name": "All Saints' Day Holiday",
+    "date": "2026-11-02",
+    "month": 11,
+    "day": 2,
+    "year": 2026,
+    "week": 45
+  },
+  {
+    "id": "co-2026-cartagena",
+    "country": "colombia",
+    "name": "Independence of Cartagena",
+    "date": "2026-11-16",
+    "month": 11,
+    "day": 16,
+    "year": 2026,
+    "week": 47
+  },
+  {
+    "id": "co-2026-immaculate",
+    "country": "colombia",
+    "name": "Immaculate Conception",
+    "date": "2026-12-08",
+    "month": 12,
+    "day": 8,
+    "year": 2026,
+    "week": 50
+  },
+  {
+    "id": "co-2026-christmas",
+    "country": "colombia",
+    "name": "Christmas Day",
+    "date": "2026-12-25",
+    "month": 12,
+    "day": 25,
+    "year": 2026,
+    "week": 52
+  }
+]
+
